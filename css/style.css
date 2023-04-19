@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------
+共通部分
+---------------------------------------------------------*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ---------------------------------------------------------
+header
+---------------------------------------------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+header .site-title {
+  margin-top: 76px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+header .main-nav {
+  margin-top: 92px;
+}
+
+header .main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+ /* ---------------------------------------------------------
+main
+---------------------------------------------------------*/
+main .section-title {
+  font-size: 36px;
+  padding: 80px 0 40px 0;
+  text-align: center;
+}
+
+main p {
+  font-size: 14px;
+}
+
+ /* ---------------------------------------------------------
+mainvisual
+---------------------------------------------------------*/
+#mainvisual {
+  height: 522px;
+  position: relative;
+}
+
+#mainvisual .catchphrase {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+#mainvisual .mainvisual-picture1 {
+  height: 395px;
+  position: absolute;
+  top: 47px;
+  left: 346px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+#mainvisual .mainvisual-picture2 {
+  height: 395px;
+  position: absolute;
+  top: 0;
+  left: 920px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+ /* ---------------------------------------------------------
+achievement
+---------------------------------------------------------*/
+#achievement {
+  background: #fed049;
+  padding-bottom: 65px;
+}
+
+#achievement .contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#achievement .content {
+  width: 31%;
+  margin-bottom: 25px;
+}
+
+#achievement .content img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+}
+
+
+#achievement .content a :hover {
+  opacity: 0.7;
+}
+
+
+ /* ---------------------------------------------------------
+skill
+---------------------------------------------------------*/
+#skill {
+  padding-bottom: 80px;
+}
+
+#skill .contents {
+  display: flex;
+  justify-content: center;
+}
+
+#skill .content {
+  text-align: center;
+  width: 23%;
+  margin: 0 110px;
+}
+
+#skill .content-title {
+  margin-bottom: 40px;
+}
+
+#skill .color-box-yellow {
+  margin: 0 auto ;
+  padding-top: 25px;
+  background: #fed049;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#skill .color-box-green {
+  margin: 0 auto ;
+  padding-top: 34px;
+  background: #68b984;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#skill p {
+  margin-top: 40px;
+}
+
+ /* ---------------------------------------------------------
+about
+---------------------------------------------------------*/
+
+ /* ---------------------------------------------------------
+dream
+---------------------------------------------------------*/
+
+
+ /* ---------------------------------------------------------
+モバイル
+---------------------------------------------------------*/
+
+@media (max-width: 896px) {
+
+  /* ---------------------------------------------------------
+  header
+  ---------------------------------------------------------*/
+
+  /* ---------------------------------------------------------
+  mainvisual
+  ---------------------------------------------------------*/
+
+  /* ---------------------------------------------------------
+  achievement
+  ---------------------------------------------------------*/
+
+  /* ---------------------------------------------------------
+  skill
+  ---------------------------------------------------------*/
+
+  /* ---------------------------------------------------------
+  about
+  ---------------------------------------------------------*/
+
+  /* ---------------------------------------------------------
+  dream
+  ---------------------------------------------------------*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
